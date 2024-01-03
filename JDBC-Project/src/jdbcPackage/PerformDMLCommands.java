@@ -19,6 +19,8 @@ public class PerformDMLCommands {
 
 		// 1) Create a connection
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "root");
+		// "jdbc:mysql://localhost:3306/DATABASE NAME", "root", "root"
+		// 'jdbc' is the database name
 		// If the MySQL server is installed on remote machine,
 		// Then, we'll have to pass the IP and Name of that machine.
 
